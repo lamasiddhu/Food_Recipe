@@ -1,0 +1,137 @@
+/* Main Container */
+.add-recipe-container {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading */
+.add-recipe-container h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Back Button */
+.back-button {
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 20px;
+  display: inline-block;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+/* Add Recipe Button */
+.add-recipe-btn {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+/* Recipe Table */
+.recipe-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+}
+
+.recipe-table th,
+.recipe-table td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+.recipe-table th {
+  background-color: black;
+  color: white;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Modal Form */
+.modal-form {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+/* Form Inputs */
+.modal-form input,
+.modal-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.modal-form textarea {
+  resize: vertical;
+}
+
+/* Submit Button */
+.submit-button {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Close (X) Button */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: #ff512f;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+}
+
+/* Optional: Hover for close */
+.close-button:hover {
+  background-color: #e6451a;
+}

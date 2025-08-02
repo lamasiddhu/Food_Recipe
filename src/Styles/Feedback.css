@@ -1,0 +1,90 @@
+.feedback-container {
+  padding: 40px;
+  background: linear-gradient(to bottom right, #fff8f1, #ffe0b2); /* light warm tone */
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  min-height: 100vh;
+}
+
+.feedback-container h2 {
+  font-size: 28px;
+  color: #ff5722; /* warm orange like sidebar */
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.feedback-table-wrapper {
+  overflow-x: auto;
+}
+
+.feedback-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.feedback-table th,
+.feedback-table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.feedback-table th {
+  background-color: #fff3e0; /* soft orange tone */
+  color: #ff5722;            /* vibrant header text */
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.feedback-table td input[type="text"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.feedback-table td select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.star-rating {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.star {
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.star.active {
+  color: #ff9800; /* orange star */
+}
+
+.submit-btn {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.submit-btn:hover {
+  background-color: #e64a19; /* darker orange */
+}
